@@ -7,6 +7,10 @@
         {
             "type": "lldb",
             "request": "launch",
+   {
+       "program": "${workspaceFolder}/my_program", // Replace with your executable name
+       "args": ["arg1", "arg2"], // Add arguments if needed
+   }
             "name": "Debug",
             "program": "${workspaceFolder}/<executable file>",
             "args": [],
